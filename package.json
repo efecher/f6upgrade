@@ -1,0 +1,41 @@
+{
+  "name": "foundation6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buildjs": "webpack",
+    "buildstyle": "node-sass ./src/scss/app.scss > ./style/app.css",
+    "devjs": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.2.6",
+    "@types/node": "^8.0.14",
+    "awesome-typescript-loader": "^3.2.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "foundation-sites": "^6.4.1",
+    "imports-loader": "^0.7.1",
+    "node-sass": "^4.5.3",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.4.1",
+    "uglify-es": "^3.0.24",
+    "uglify-es-webpack-plugin": "0.0.2",
+    "uglifycss": "0.0.27",
+    "webpack": "^3.1.0"
+  },
+  "dependencies": {
+    "@types/jquery.datatables": "^1.10.36",
+    "lodash": "^4.17.4",
+    "node-sass-import": "^1.1.1"
+  },
+  "peerDependencies": {
+    "node-sass": ">= 4.5.3"
+  }
+}
